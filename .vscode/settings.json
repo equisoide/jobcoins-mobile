@@ -1,0 +1,13 @@
+{
+  "explorer.sortOrder": "type",
+  "files.eol": "\n",
+  "files.exclude": {
+    "node_modules": true,
+    "package-lock.json": true
+  },
+  "javascript.suggestionActions.enabled": false,
+  "search.exclude": {
+    "**/node_modules": true,
+    "package-lock.json": true
+   }
+}
