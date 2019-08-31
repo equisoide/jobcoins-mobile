@@ -5,9 +5,20 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "lint": "./node_modules/.bin/eslint --ext .js App.js **/*.js"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^6.0.0",
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3"
   },
   "dependencies": {
+    "@expo/vector-icons": "^10.0.5",
     "expo": "^34.0.1",
     "expo-font": "^6.0.1",
     "native-base": "^2.13.5",
@@ -15,9 +26,6 @@
     "react-dom": "^16.8.6",
     "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz",
     "react-native-web": "^0.11.4"
-  },
-  "devDependencies": {
-    "babel-preset-expo": "^6.0.0"
   },
   "private": true
 }
