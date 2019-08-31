@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "devDependencies": {
     "babel-preset-expo": "6.0.0",
+    "cross-env": "^5.2.1",
     "eslint": "6.3.0",
     "eslint-config-airbnb": "18.0.1",
     "eslint-plugin-import": "2.18.2",
@@ -29,5 +30,5 @@
     "lint": "./node_modules/.bin/eslint --ext .js App.js **/*.js",
     "start": "expo start",
     "web": "expo start --web"
-  },
+  }
 }
