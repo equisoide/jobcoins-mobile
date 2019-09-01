@@ -41,7 +41,7 @@
     "android": "expo start --android",
     "eject": "expo eject",
     "ios": "expo start --ios",
-    "lint": "./node_modules/.bin/eslint --ext .js App.js **/*.js",
+    "lint": "./node_modules/.bin/eslint --ext .js **/*.js",
     "start": "expo start",
     "web": "expo start --web"
   }
