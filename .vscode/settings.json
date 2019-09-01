@@ -2,6 +2,14 @@
   "explorer.sortOrder": "type",
   "files.eol": "\n",
   "files.exclude": {
+    ".editorconfig": true,
+    ".eslintrc": true,
+    ".expo": true,
+    ".expo-shared": true,
+    ".gitignore": true,
+    ".vscode": true,
+    ".watchmanconfig": true,
+    "babel.config.js": true,
     "node_modules": true,
     "package-lock.json": true
   },
